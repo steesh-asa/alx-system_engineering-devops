@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -p -A | LC_ALL=C sort -d -k1.1 | tr '\n' ','; echo
